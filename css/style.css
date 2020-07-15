@@ -17,8 +17,16 @@ a {
     font-family: 'Modak', cursive;
     font-size:32px;
     display:inline;
+    word-spacing:3px;
 }
 
+.banner {
+    background-color:rgb(255, 216, 0);
+}
+
+    .banner h1 {
+        color: rgb(13, 15, 129)
+    }
 nav{
     background-color:rgb(13, 15, 129)
 }
