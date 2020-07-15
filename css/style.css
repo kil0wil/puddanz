@@ -34,6 +34,7 @@ a {
         text-align:center;
         margin-top:40px;
         font-size:120px;
+        text-shadow: 5px 5px 5px rgb(255, 58, 167)
     }
 nav {
     height:80px;
