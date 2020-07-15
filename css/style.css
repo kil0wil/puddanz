@@ -39,10 +39,6 @@ nav {
     background-image: linear-gradient(to bottom right, rgb(13, 15, 129), rgb(0, 148, 255));
 }
 
-nav a{
-    float:right;
-    position:fixed;
-}
 
 footer {
     position: fixed;
