@@ -1,9 +1,12 @@
-﻿body
+﻿@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+
+body
 {
     background-color:rgb(0, 148, 255)
 }
 
-a{
-    text-decoration:none;
-    color:rgb(255, 58, 167)
+a {
+    text-decoration: none;
+    color: rgb(255, 58, 167);
+    font-family: 'Modak', cursive;
 }
