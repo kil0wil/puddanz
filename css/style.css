@@ -9,4 +9,10 @@ a {
     text-decoration: none;
     color: rgb(255, 58, 167);
     font-family: 'Modak', cursive;
+    font-size:32px;
+    display:inline;
+}
+
+nav{
+    background-color:rgb(13, 15, 129)
 }
