@@ -1,57 +1,47 @@
-﻿@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+﻿@import url('https://fonts.googleapis.com/css2?family=Knewave&family=Over+the+Rainbow&display=swap');
 
-*{
-    margin:0px;
-    padding:0px;
+h1 {
+    font-family: 'Knewave', cursive;
+    font-size:110px;
 }
 
-h2{
-    color:palegreen;
+h2 {
+    font-family: 'Over the Rainbow', cursive;
 }
 
-body {
-    background-color:rgb(13, 15, 129);
+header {
+    text-align:center;
+    line-height:0.05;
+    position: fixed;
+    top:100px;
+    width:100%;
+}
+
+header nav a{
+    margin:20px 25px;
+    color:lightpink;
+    font-size:28px;
 }
 
 a {
-    text-decoration: none;
-    color: rgb(255, 58, 167);
-    font-family: 'Modak', cursive;
+    text-decoration:none
+}
+
+#socialMedia{
+    float:right;
+    position:relative;
     font-size:32px;
-    display:inline;
-    word-spacing:3px;
+    bottom:100px;
 }
 
-.banner {
-    background-color:rgb(237, 255, 0);
-    height:280px;
-    background-image:url(./bannerback.jpg);
-    background-position:center;
-    background-repeat:no-repeat;
-    
+#socialMedia a{
+    margin:0 20px;
 }
 
-    .banner h1 {
-        color: whitesmoke;
-        font-family: 'Gloria Hallelujah', cursive;
-        text-align:center;
-        margin-top:40px;
-        font-size:120px;
-        text-shadow: 5px 5px 5px rgb(255, 58, 167)
-    }
-nav {
-    height:80px;
-    background-image: linear-gradient(to bottom right, rgb(13, 15, 129), rgb(0, 148, 255));
+.male{
+    color:rgb(0, 3, 148);
 }
 
-
-footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(13, 15, 129);
-    color: white;
-    text-align: center;
+.female{
+    color:rgb(225, 2, 111);
 }
