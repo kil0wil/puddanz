@@ -39,6 +39,13 @@ nav{
 }
 
 
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 
 .male{
     color:rgb(0, 3, 148);
@@ -49,13 +56,7 @@ nav{
 }
 
 
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    border: 12px solid black;
-}
+
 
 
 .sidenav {
@@ -115,4 +116,63 @@ img {
         .sidenav a {
             font-size: 18px;
         }
+}
+
+
+section {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+    section img {
+        position: absolute;
+        border: 15px solid black
+
+    }
+
+.firstImg {
+    animation-name: fade;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-direction: alternate;
+    animation-delay: 4s;
+}
+
+.secondImg {
+    animation-name: fade;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-direction: alternate;
+    animation-delay: 2s;
+}
+
+.thirdImg {
+    animation-name: fade;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-direction: alternate;
+    animation-delay: 1s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 1;
+    }
+
+    25% {
+        opacity: 1;
+    }
+
+    75% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
 }
