@@ -1,5 +1,7 @@
 ﻿@import url('https://fonts.googleapis.com/css2?family=Knewave&family=Over+the+Rainbow&display=swap');
 
+
+
 h1 {
     font-family: 'Knewave', cursive;
     font-size:110px;
@@ -12,7 +14,7 @@ h2 {
 header {
     text-align:center;
     line-height:0.05;
-    position: fixed;
+    position: absolute;
     top:100px;
     width:100%;
 }
@@ -44,4 +46,13 @@ a {
 
 .female{
     color:rgb(225, 2, 111);
+}
+
+Img {
+    position: center;
+    height:10%;
+    border: 15px solid black;
+    height: 50%;
+    margin-top:320px;
+    
 }
